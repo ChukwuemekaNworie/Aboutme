@@ -1,0 +1,348 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+    }
+    /*--------start of navbar------*/
+    nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width:100%;
+    height:10%;
+    top:0;
+    z-index: 1;
+    
+    }
+    
+    nav ul{
+    float: left;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    width:20vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+    margin-left: 17%;
+    padding-top: 20px;
+    padding-right: 80px;
+    font-family:Arial, Helvetica, sans-serif
+    }
+    
+    nav li a{
+    color:#fff;
+    font-size:13px;
+    border-radius: 5px;
+    transition: color 0.5s;
+    }
+    
+    nav li a:hover{
+    color:#3693ff;
+    }
+    
+    .work{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #666666;
+    }
+    
+    .text-primary{
+    color:#3693ff;
+    }
+    
+    .work h2 a{
+    color:#fff;
+    }
+    
+    /*-------End of navbar----*/
+    
+    /*-------showarea--------*/
+    #showarea{
+    background-image: url(../AboutMe/img3.jpg);
+    background-repeat: no-repeat;
+    height:100vh;
+    max-width: 100%;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    }
+    
+    .showareacontent{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.2);
+    height: 95vh;
+    
+    }
+    .container h1{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    }
+    
+    .btn{
+    color: #3693ff;
+    max-width: 15px;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    border: 1px solid #3693ff;
+    border-radius: 15px;
+    
+    }
+    
+    .btn:hover{
+    background-color: #fff;
+    transition: 0.1s;
+    }
+    
+    /*-----about-----*/
+    
+    #about{
+    padding:5rem 0;
+    }
+    
+    #about h2{
+    margin-left: 29%;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    #about p.lean {
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    font-size: 15px;
+    border: 2px solid #3693ff;
+    border-radius: 5px;
+    padding:5px;
+    margin-top: 5px;
+    }
+    
+    #about .about-content {
+    display:flex;
+    }
+    
+    #about .about-content,
+    #about .about-image {
+        flex: 1;
+    }
+    
+    #about .about-text {
+        text-align:justify;
+    }
+    
+    
+    
+    #about .about-image img {
+        display: block;
+        width: 15vw;
+        border-radius: 10%;
+        margin-top: 110%;
+        height:35vh;
+    }
+    
+    
+    #about h3{
+    margin-left: 25%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-weight: bold;
+    }
+    
+    .about-content learn{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 20px
+    
+    }
+    
+    .learn1{
+    margin-left: 30%;
+    margin-bottom: 15px;
+    margin-top: 2%;
+    font-family: sans-serif;
+    letter-spacing:0.5px;
+    font-size: 15px;
+    padding-top: 15px;
+    }
+    
+    p{
+    display: inline-block;
+    width: 70%;
+    }
+    
+    
+    
+    
+    .image img{
+    height: 20vh;
+    border:1px solid #666666;
+    border-radius: 40%;
+    display: block;
+    box-shadow: #3693ff;
+    }
+    
+    
+    
+    /*--------contact us--------*/
+    
+    .p1{
+    margin-left: 25%;
+    padding-top: 2%;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color:rgba(199, 190, 190, 0.712);
+    
+    }
+    
+    #contactus{
+    background-color:#4c5c6e;
+    background-size:cover;
+    background-position: center;
+    height:20%;
+    width: 100%;
+    padding-bottom: 2%;
+    }
+    
+    
+     h4 {
+       margin-left: 41%;
+        text-decoration: underline;
+        text-underline-position: under;
+        color:#fff;
+        font-size: 30px;
+    
+    }
+    
+    
+    p1{
+        text-align: center;
+        padding-top: 10px;
+        margin-left: 39%;
+        padding-bottom: 3%;
+        color:#fff;
+        letter-spacing: 3px;
+    }
+    
+     i.fa{
+        font-size: 30px;
+        background-color: rgb(189, 171, 148);
+        cursor: pointer;
+        display:inline ;
+        margin-left: 15%;
+        border: px solid #3693ff;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    
+    input[type=text], select, textarea {
+        width: 50%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 15px;
+        margin-bottom: 16px;
+        resize: vertical;
+        display: flex;
+        margin-left: 25%;
+        display: block;
+      }
+    
+    label{
+    margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    form [label] {
+        width: 60%;
+        box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 12px;
+        top: 50%;
+        position: relative;
+        background-color: rgb(242, 242, 242);
+        margin: 0em auto 3em;
+        border-radius: 5px;
+        padding: 25px;
+    }
+    
+    .contact-form form{
+    display: inline;
+    }
+    
+      
+      input[type=submit] {
+        background-color:#3693ff;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 35%;
+        width:110px;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #af7c9c;
+      }
+      
+    
+    /*---------footer-----------*/
+    
+    
+    footer {
+        margin-top: 30px;
+        background-color: #ddd;
+        padding: 20px;
+    }
+    
+    footer ul
+    {
+    display: flex;
+    justify-content: flex-end;
+    
+    }
+    
+    footer ul li {
+     width:5vw;
+     cursor: pointer;
+     list-style: none;
+    }
+    
+    footer span
+    {
+    display:flex;
+    color:#444;
+    margin-top: 5px;
+    justify-content: flex-end;
+    cursor: pointer;
+    
+    }
+    
+    
+    fas
+    {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 125px;
+     width: 20vw;
+     color: darkorange;
+    
+    }
+    
+    
+    
+    
+    
+    
