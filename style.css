@@ -62,7 +62,7 @@
     
     /*-------showarea--------*/
     #showarea{
-    background-image: url(../AboutMe/img3.jpg);
+    background-image: url("img3.jpg");
     background-repeat: no-repeat;
     height:100vh;
     max-width: 100%;
